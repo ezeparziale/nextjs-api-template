@@ -40,5 +40,5 @@ export const document = createDocument({
       },
     },
   },
-  security: [{ BearerAuth: [] }],
+  security: [{ ApiKey: [] }],
 })
